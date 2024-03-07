@@ -1,0 +1,9 @@
+\begin{CajaTitulo}{\begin{center}\subsection{Solución P9}\end{center}}
+    \vspace{0.5cm}
+    \begin{align*}
+        \int_{0}^{\infty} \frac{x}{\sinh(x)}dx &= 2\int_{0}^{\infty} \frac{x}{e^x - e^{-x}}dx\\
+        &= 2\int_{0}^{\infty} \frac{x}{e^x - e^{-x}}dx\cdot \frac{e^{-x}}{e^{-x}}\\
+        &= 2\int_{0}^{\infty} \frac{xe^{-x}}{1 - (e^{-x})^2}dx \: \hspace{0.3cm}\cambio{\ln(u) = -x}{du = -e^{-x}dx}\\
+        &= -2\int_{0}^{1} \frac{\ln(u)}{1 - u^2}du = -2\sum_{n=1}^{\infty}\int_{0}^{1}u^{2n}\ln(u)du\\
+    \end{align*}
+\end{CajaTitulo}
