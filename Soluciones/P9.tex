@@ -1,9 +1,12 @@
 \begin{CajaTitulo}{\begin{center}\subsection{Solución P9}\end{center}}
     \vspace{0.5cm}
     \begin{align*}
-        \int_{0}^{\infty} \frac{x}{\sinh(x)}dx &= 2\int_{0}^{\infty} \frac{x}{e^x - e^{-x}}dx\\
-        &= 2\int_{0}^{\infty} \frac{x}{e^x - e^{-x}}dx\cdot \frac{e^{-x}}{e^{-x}}\\
-        &= 2\int_{0}^{\infty} \frac{xe^{-x}}{1 - (e^{-x})^2}dx \: \hspace{0.3cm}\cambio{\ln(u) = -x}{du = -e^{-x}dx}\\
-        &= -2\int_{0}^{1} \frac{\ln(u)}{1 - u^2}du = -2\sum_{n=1}^{\infty}\int_{0}^{1}u^{2n}\ln(u)du\\
+        & \int_{0}^{\infty}\frac{\sin(\ln(x))}{\ln(x)}dx \: \cambio{\ln(x) = -u}{dx = -e^{-u}du} = \int_{\infty}^{0}\frac{\sin(-u)}{-u}e^{-u}(-du)   \\
+        & \frac{d}{da} I(a) =  \frac{d}{da} \int_{0}^{\infty}\frac{\sin(u)}{u}e^{-ua}du \implies I'(a) = -\int_{0}^{\infty}\sin(u)e^{-au}du\\ 
+        & \PorPartes{e^{-au}}{-a e^{-au}du  }{-\sin(u)du}{\cos(u)} \implies -I'(a) = \left[-e^{-au}\cos(u)\Big|_{0}^{\infty} - a\int_{0}^{\infty}e^{-au}\cos(u)du\right] \\ 
+        & -I'(a) = \left(1 - a \cdot \PorPartes{e^{-au}}{-ae^{-au}du}{\cos(u)du}{\sin(u)} \right) = 1 - a\left(0 - a\int_{0}^{\infty}e^{-au}\sin(u)du\right)\\ 
+        & -I'(a) = 1 + a^2I(a) \implies I'(a) + a^2I'(a) = -1 \implies I'(a) =  -\frac{1}{1+a^2}\\
+        & \int_{1}^{\infty} \frac{1}{1+a^2}da = I(\infty) - I(0) \implies  \frac{\pi}{4} = 0 + I(1)\\
+        & \therefore I(1) = \frac{\pi}{4}
     \end{align*}
 \end{CajaTitulo}

@@ -1011,6 +1011,9 @@ INPUT Soluciones/P8.aux
 INPUT ./Soluciones/P9.aux
 INPUT Soluciones/P9.aux
 INPUT Soluciones/P9.aux
+INPUT ./Soluciones/P10.aux
+INPUT Soluciones/P10.aux
+INPUT Soluciones/P10.aux
 OUTPUT Main.aux
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1253,6 +1256,16 @@ INPUT ./Soluciones/P9.tex
 INPUT Soluciones/P9.tex
 INPUT ./Soluciones/P9.tex
 INPUT Soluciones/P9.tex
+INPUT ./Soluciones/P10.tex
+INPUT ./Soluciones/P10.tex
+INPUT ./Soluciones/P10.tex
+OUTPUT Soluciones/P10.aux
+INPUT ./Soluciones/P10.tex
+INPUT ./Soluciones/P10.tex
+INPUT ./Soluciones/P10.tex
+INPUT Soluciones/P10.tex
+INPUT ./Soluciones/P10.tex
+INPUT Soluciones/P10.tex
 INPUT Main.aux
 INPUT ./Problemas/primera_pag.aux
 INPUT Problemas/primera_pag.aux
@@ -1287,6 +1300,9 @@ INPUT Soluciones/P8.aux
 INPUT ./Soluciones/P9.aux
 INPUT Soluciones/P9.aux
 INPUT Soluciones/P9.aux
+INPUT ./Soluciones/P10.aux
+INPUT Soluciones/P10.aux
+INPUT Soluciones/P10.aux
 INPUT ./Main.out
 INPUT ./Main.out
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
