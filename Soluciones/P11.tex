@@ -1,7 +1,13 @@
 \begin{CajaTitulo}{\begin{center}\subsection{Solución P11}\end{center}}
     \vspace{0.5cm}
     \begin{align*}
-            \int \frac{1}{x^2 + 1}dx &= \arctan(x) + C \\
-            &= \arctan(x) + C
-    \end{align*}
+    & \int_{0}^{\infty}\frac{x\sin(ax)}{x^2 - b^2}  =  \int_{0}^{\infty} \frac{\partial}{\partial a} \frac{\cos(ax)}{b^2 - x^2}dx \\
+    & \int_{0}^{\infty}\frac{\cos(ax)}{b^2 - x^2}dx = \frac{1}{2b}\int_{0}^{\infty}\frac{\cos(ax)}{b + x}dx - \frac{1}{2b}\int_{0}^{\infty}\frac{\cos(ax)}{b - x}dx \\
+    & \frac{1}{2b}\int_{0}^{\infty}\frac{\cos(ax)}{b + x}dx \: \cambio{x+b = u}{dx = du}  \implies \frac{1}{2b}\int_{b}^{\infty}\frac{\cos(a(u-b))}{u}du \\
+    & \frac{1}{2b}\int_{0}^{\infty}\frac{\cos(ax)}{b - x}dx \: \cambio{b - x = u}{dx = -du}  \implies \frac{1}{2b}\int_{-\infty}^{b}\frac{\cos(-a(u-b))}{u}du \\
+& \frac{1}{2b}\int_{-\infty}^{\infty}\frac{\cos(ab - au)}{u}du = \frac{1}{b}\int_{0}^{\infty}\frac{\cos(ab)\cos(au) + \sin(ab)\sin(au)}{u}du \\
+& \frac{1}{b}\int_{0}^{\infty}\frac{\cos(ab)\cos(au)}{u}du  + \frac{1}{b}\int_{0}^{\infty}\frac{\sin(ab)\sin(au)}{u}du = 0 \: + \frac{\sin(ab)}{b}\int_{0}^{\infty}\frac{\sin(au)}{u}du \\
+& \frac{\sin(ab)}{b}\int_{0}^{\infty}\frac{\sin(au)}{u}du = \frac{\pi\sin(ab)}{2b} \implies \int_{0}^{\infty}\frac{\cos(ax)}{b^2-x^2}dx = \frac{\pi}{2b}\sin(ab) \\
+& \frac{d}{da} \int_{0}^{\infty}\frac{\cos(ax)}{b^2-x^2}dx =  \frac{d}{da} \frac{\pi}{2b}\sin(ab) \implies \int_{0}^{\infty} \frac{x\sin(ax)}{x^2 - b^2}dx =  \frac{\pi}{2}\cos(ab) \\
+\end{align*}
 \end{CajaTitulo}

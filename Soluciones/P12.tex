@@ -1,0 +1,10 @@
+\begin{CajaTitulo}{\begin{center}\subsection{Solución P12}\end{center}}
+    \vspace{0.3cm}
+    \begin{align*}
+        &\int_{0}^{\infty}\frac{(1-e^{-\pi x})}{x}\cos(\pi x ) dx = \int_{0}^{\infty}-\frac{e^{-xy}}{x}\Brackets_{0}^{\pi}\cos(\pi x )dx \\
+        &-\int_{0}^{\infty}\int_{0}^{\pi}e^{-xy}\cos(\pi x )dy dx = - \int_{0}^{\pi}\int_{0}^{\infty}e^{-xy}\cos(\pi x )dx dy \\
+        &\int_{0}^{\infty}e^{-xy}\cos(\pi x )dx = \frac{y}{y^2 + \pi^2} \implies -\int_{0}^{\pi}\frac{y}{y^2 + \pi^2}dy  \\
+        &\int_{0}^{\pi}\frac{y}{y^2 + \pi^2}dy = \frac{1}{2}\int_{0}^{\pi}\frac{2y}{y^2 + \pi^2}dy =  \frac{1}{2}{\ln(y^2 + \pi^2)}\Brackets_{0}^{\pi} \\
+        &I = \frac{1}{2}\left(\ln(2\pi^2) - \ln(\pi^2)\right) = \frac{\ln(2)}{2}
+\end{align*}
+\end{CajaTitulo}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.7.28)  9 MAR 2024 19:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.7.28)  9 MAR 2024 21:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -646,7 +646,7 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (./Main.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
- (./Problemas/primera_pag.aux) (./Soluciones/P1.aux) (./Soluciones/P2.aux) (./Soluciones/P3.aux) (./Soluciones/P4.aux) (./Soluciones/P5.aux) (./Soluciones/P6.aux) (./Problemas/Segunda_pag.aux) (./Soluciones/P7.aux) (./Soluciones/P8.aux) (./Soluciones/P9.aux) (./Soluciones/P10.aux))
+ (./Problemas/primera_pag.aux) (./Soluciones/P1.aux) (./Soluciones/P2.aux) (./Soluciones/P3.aux) (./Soluciones/P4.aux) (./Soluciones/P5.aux) (./Soluciones/P6.aux) (./Problemas/Segunda_pag.aux) (./Soluciones/P7.aux) (./Soluciones/P8.aux) (./Soluciones/P9.aux) (./Soluciones/P10.aux) (./Soluciones/P11.aux) (./Soluciones/P12.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
@@ -729,7 +729,7 @@ Package hyperref Info: Link coloring ON on input line 98.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Imagenes/Logo.png, id=95, 813.0375pt x 813.0375pt>
+<Imagenes/Logo.png, id=103, 813.0375pt x 813.0375pt>
 File: Imagenes/Logo.png Graphic file (type png)
 <use Imagenes/Logo.png>
 Package pdftex.def Info: Imagenes/Logo.png  used on input line 118.
@@ -820,7 +820,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
-<Imagenes/gato.jpg, id=144, 253.94875pt x 199.74625pt>
+<Imagenes/gato.jpg, id=154, 253.94875pt x 199.74625pt>
 File: Imagenes/gato.jpg Graphic file (type jpg)
 <use Imagenes/gato.jpg>
 Package pdftex.def Info: Imagenes/gato.jpg  used on input line 147.
@@ -983,26 +983,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
 
 
+]
+\openout2 = `Soluciones/P11.aux'.
+
+ (./Soluciones/P11.tex) [15
+
+
+
+]
+\openout2 = `Soluciones/P12.aux'.
+
+ (./Soluciones/P12.tex) [16
+
+
+
 ] (./Main.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
- (./Problemas/primera_pag.aux) (./Soluciones/P1.aux) (./Soluciones/P2.aux) (./Soluciones/P3.aux) (./Soluciones/P4.aux) (./Soluciones/P5.aux) (./Soluciones/P6.aux) (./Problemas/Segunda_pag.aux) (./Soluciones/P7.aux) (./Soluciones/P8.aux) (./Soluciones/P9.aux) (./Soluciones/P10.aux))
+ (./Problemas/primera_pag.aux) (./Soluciones/P1.aux) (./Soluciones/P2.aux) (./Soluciones/P3.aux) (./Soluciones/P4.aux) (./Soluciones/P5.aux) (./Soluciones/P6.aux) (./Problemas/Segunda_pag.aux) (./Soluciones/P7.aux) (./Soluciones/P8.aux) (./Soluciones/P9.aux) (./Soluciones/P10.aux) (./Soluciones/P11.aux) (./Soluciones/P12.aux))
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 764B57D9CB723E08D96C905E985E3542;1701.
+(rerunfilecheck)             Checksum: 2159295FC5C7BE81E78A030EE212FD40;1949.
  ) 
 Here is how much of TeX's memory you used:
- 29661 strings out of 476091
- 590906 string characters out of 5794081
+ 29726 strings out of 476091
+ 592811 string characters out of 5794081
  1881330 words of memory out of 5000000
- 49395 multiletter control sequences out of 15000+600000
+ 49442 multiletter control sequences out of 15000+600000
  590658 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,18n,104p,562b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Main.pdf (15 pages, 734344 bytes).
+Output written on Main.pdf (17 pages, 739453 bytes).
 PDF statistics:
- 349 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 271 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 367 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 287 words of extra memory for PDF output out of 10000 (max. 10000000)
 
